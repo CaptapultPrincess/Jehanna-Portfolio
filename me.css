@@ -1,0 +1,193 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Crafty+Girls&family=Delius&family=Eater&family=Fruktur:ital@0;1&family=Poiret+One&display=swap');
+
+
+/*Mostly Boxes*/
+.white-line{
+    background-color:white;
+    height:20px;
+    width:auto;
+    color:white;
+}
+
+.black-box{
+    text-align:center;
+    height:350px;
+    width:100%;
+    background-color:rgb(0, 0, 0);
+    padding:150px;
+    background-image:url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bmlnaHQlMjBza3l8ZW58MHx8MHx8fDA%3D");
+    z-index:-20;
+}
+
+/*CSS for the Talents*/
+.bio-txt{
+    color:white;
+    position:absolute;
+    font-size:20px;
+    text-align:left;
+    margin-left:-150px;
+    width:370px;
+}
+
+.bio-img{
+    height:645px;
+    width:600px;
+    position:absolute;
+    margin-left:639px;
+    margin-top:-150px;
+    text-align:right;
+    z-index:1;
+}
+.me-smart-1,.me-smart-2,.me-smart-3, .me-prog-1,.me-prog-2,.me-prog-3, .me-joy-1,.me-joy-2,.me-joy-3, .me-speak-1,.me-speak-2,.me-speak-3, .me-art-1,.me-art-2,.me-art-3{
+    /*width:100%;*/
+    height:100%;
+    display:none;
+    /*border-radius:50px;*/
+}
+
+.img-cover{
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0), rgba(0, 0, 0, 0),black, black);
+    z-index:1;
+    position:absolute;
+    width:500px;
+    height:650px;
+    margin-top: 0px;
+    margin-left:-5px;
+    display:none;
+}
+
+.me-img{
+    filter: opacity(0%) contrast(100%);
+    display:inline;
+    margin-top:-50px;
+    margin-left:-300px;
+    z-index:5;
+}
+
+.me-programmer, .me-speaker, .me-artist, .me-nerd, .me-positive{
+    position:absolute;
+    display:none;
+    width:270px;
+    filter: opacity(100%) contrast(0%);
+    z-index:2;
+
+}
+
+.me-programmer:hover, .me-speaker:hover, .me-artist:hover, .me-nerd:hover, .me-positive:hover{
+    filter: opacity(100%) contrast(50%);
+
+}
+
+.me-programmer{
+    width:480px;
+    margin-top:175px;
+    margin-left:-278px;
+}
+
+.me-speaker{
+    width:340px;
+    margin-top:165px;
+    margin-left:-666px;
+}
+
+.me-artist{
+    width:187px;
+    margin-top:190px;
+    margin-left:-380px;
+}
+
+.me-nerd{
+    margin-top:50px;
+    width:200px;
+    margin-left:-480px;
+    margin-top:-49px;
+}
+
+.me-positive{
+    margin-top:-50px;
+    margin-left:-280px;
+}
+
+
+/*CSS for the interest*/
+.int-box{
+    float:left;
+    background-color:rgb(46, 46, 46);
+    height:400px;
+    width:40%;
+    text-align:center;
+    z-index:50;
+}
+
+.int-img{
+    float:left;
+    background-color:rgba(128, 20, 158, 0.525);
+    height:400px;
+    width:30%;
+    text-align:center;
+}
+.int-desc{
+    background-color:rgb(255, 233, 255);
+    height:400px;
+    width:30%;
+    display:inline-block;
+    text-align:center;
+}
+
+
+
+.int-1, .int-2, .int-3,.int-4{
+    filter:opacity(100%);
+    width:35%;
+    padding:5px;
+    z-index:51;
+
+} 
+
+.int-1:hover, .int-2:hover, .int-3:hover,.int-4:hover{
+    filter:opacity(50%);
+    width:35%;
+    padding:5px;
+
+} 
+.img-int, .img-int-1, .img-int-2, .img-int-3, .img-int-4{
+    width:100%;
+    height:100%;
+    display:none;
+
+/*Remaining sections basic defaults*/
+}
+.header-int, .header-hello{
+    font-family:'Rubik Dirt', sans-serif;
+    font-weight:599;
+    color:rgb(0, 0, 0);
+    font-size:50px;
+}
+.text-int, .text-hello{
+    font-family:'Comic Neue', sans-serif;
+    color:rgb(0, 0, 0);
+    font-size:20px;
+    padding:10px;
+}
+
+.hello-text{
+    display:inline-block;
+    background-color:rgb(255, 233, 255);
+    height:400px;
+    width:50%;
+    text-align:center;
+}
+.hello-img{
+    float:right;
+    background-color:rgb(237, 0, 0);
+    height:400px;
+    width:50%;
+}
+
+.img-hello{
+    width:100%;
+    height:100%;
+
+}

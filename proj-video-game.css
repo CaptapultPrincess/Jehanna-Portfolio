@@ -1,0 +1,140 @@
+
+.body{
+    background-color:rgb(0, 0, 0);
+}
+
+.back-img{
+    width:100%;
+    height:auto;
+    position:absolute;
+    z-index:-1;
+}
+
+.header{
+    color:white;
+    font-size:100px;
+    text-align:center;
+}
+
+/*Interactive Box*/
+.interactive-box{
+    width:800px;
+    height:500px;
+    background-color:rgb(70, 134, 80);
+    background-image:url(https://media.istockphoto.com/id/865924416/vector/cartoon-grass.jpg?s=612x612&w=0&k=20&c=fwF4vmEDWJEDMce3WbLQTHTxfuOVylyFsBC3PqqGnbo=);
+    margin:auto;
+    margin-top:50px;
+    border-radius:30px;
+    border:10px solid rgb(218, 151, 254);
+}
+
+.water{
+    background-color:rgb(11, 11, 130);
+    width:100%;
+    height:150px;
+    border-radius:20px;
+    
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    
+    margin-top:350px;
+    object-fit:cover;
+}
+
+.water-gif{
+    width:100%;
+    height: 100%;
+    border-radius:20px;
+    border-top-right-radius:0px;
+    border-top-left-radius:0px;
+    object-fit:cover;
+    object-position:bottom;
+}
+
+.grass{
+    position:absolute;
+    z-index:5000;
+    width:800px;
+}
+
+.grass-border{
+    object-fit:cover;
+    width:800px;
+    height:80px;
+    margin-top:270px;
+}
+
+/*Little People Code*/
+.deighi-alt, .juli-alt, .ally-alt, .hughes-alt, .baker-alt{
+    position:absolute;
+    width:350px;
+    margin-left:0px;
+    display:none;
+}
+
+.deighi-move, .juli-move, .ally-move, .hughes-move, .baker-move{
+    position:absolute;
+    width:350px;
+    margin-left:0px;
+}
+
+/*Main line Games CSS*/
+
+.desc-box, .desc-box-1, .desc-box-2, .desc-box-3{
+    margin-top:20px;
+    height:fit-content;
+    width:100%;
+    background-color:rgba(186, 131, 215, 0.731);
+    text-align:center;
+    color:rgb(0, 0, 0);
+    padding:1px;
+    font-size:155%;
+    font-weight: normal;
+}
+.main-text{
+    padding:15px;
+
+}
+
+.explore-btn{
+    background-color:rgb(179, 0, 255);
+    text-decoration:none;
+    color:white;
+    padding:10px;
+    border-radius:50px;
+    font-size:25px;
+
+}
+
+.main-games, .extra-games-1, .extra-games-2, .extra-games-3{
+    margin-top:20px;
+    height:400px;
+    width:100%;
+    background-color:rgba(218, 151, 254, 0.5);
+    display:inline-block;
+    text-align:center;     
+}
+
+.extra-games-1, .extra-games-2, .extra-games-3, .desc-box-1, .desc-box-2, .desc-box-3{
+    display:none;
+}
+    
+.game-card{
+    font-size:13px;
+    display:inline-block;
+    width:30%;
+    margin-top:40px;
+}
+
+.game-i,.game-1,.game-2,.game-3,.game-4,.game-5,.game-6{
+    padding:10px;
+    width:90%;
+    border-radius:30px;
+    display:inline-block;
+}
+
+.game-i:hover,.game-1:hover,.game-2:hover,.game-3:hover,.game-4:hover,.game-5:hover,.game-6:hover{
+    width:91%;
+    filter:opacity(50%);
+}
+
